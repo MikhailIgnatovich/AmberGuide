@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "791245193260",
+    "project_id": "amberguide-c4f38",
+    "storage_bucket": "amberguide-c4f38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791245193260:android:96e13bed0e87dce58e9189",
+        "android_client_info": {
+          "package_name": "com.bulich.misha.amberguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791245193260-8k2jhhn48eij1p5akffagqu2mupi6nc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAILJz72sEpshiffgoVb6qrC0Bt6M4TQLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791245193260-8k2jhhn48eij1p5akffagqu2mupi6nc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
