@@ -1,4 +1,4 @@
-package com.bulich.misha.amberguide
+package com.bulich.misha.amberguide.presentations
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.bulich.misha.amberguide.ui.theme.AmberGuideTheme
+import com.bulich.misha.amberguide.presentations.ui.theme.AmberGuideTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.bulich.misha.amberguide.ui.theme
+package com.bulich.misha.amberguide.presentations.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
