@@ -9,7 +9,8 @@ import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.tasks.await
 
 
-class CategoryFirestoreDb {
+
+class CategoryFirestoreDb  {
 
     private val db = Firebase.firestore
 
