@@ -1,4 +1,8 @@
 package com.bulich.misha.amberguide.domain.use_case
 
-class GetHotelsUseCase {
+import com.bulich.misha.amberguide.domain.repository.CategoryRepository
+
+class GetHotelsUseCase() {
+
+
 }

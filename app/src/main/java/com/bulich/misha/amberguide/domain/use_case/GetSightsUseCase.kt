@@ -1,4 +1,4 @@
 package com.bulich.misha.amberguide.domain.use_case
 
-class GetSingsUseCase {
+class GetSightsUseCase {
 }
