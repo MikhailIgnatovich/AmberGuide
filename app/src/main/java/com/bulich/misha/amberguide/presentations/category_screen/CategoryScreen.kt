@@ -44,7 +44,7 @@ fun CategoryScreen(
         )
     }
 }
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun TestPreview(){
     CategoryScreen()
