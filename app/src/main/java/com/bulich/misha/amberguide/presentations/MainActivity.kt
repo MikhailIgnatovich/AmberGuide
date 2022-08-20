@@ -16,7 +16,9 @@ import androidx.navigation.compose.rememberNavController
 import com.bulich.misha.amberguide.presentations.category_screen.CategoryScreen
 import com.bulich.misha.amberguide.presentations.item_list_screen.ItemListScreen
 import com.bulich.misha.amberguide.presentations.ui.theme.AmberGuideTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +42,7 @@ class MainActivity : ComponentActivity() {
                         composable(
                             route = Screen.ItemListScreen.route + "/{category}"
                         ){
-                            ItemListScreen()
+                            ItemListScreen(navController)
                         }
                     }
                 }
